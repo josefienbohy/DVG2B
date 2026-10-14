@@ -1,8 +1,8 @@
 # Logboek — Creative Automation onepager
 
-**Live site:** https://gooningismypassion.github.io/klas_naam_creaut-onepager/  
-**Versie 1:** https://gooningismypassion.github.io/klas_naam_creaut-onepager/v1/  
-**Repository:** https://github.com/gooningismypassion/klas_naam_creaut-onepager
+**Live site:** https://josefienbohy.github.io/klas_naam_creaut-onepager/  
+**Versie 1:** https://josefienbohy.github.io/klas_naam_creaut-onepager/v1/  
+**Repository:** https://github.com/josefienbohy/klas_naam_creaut-onepager
 
 ## Sessie 1 — 14 oktober 2026
 
@@ -38,6 +38,15 @@
 **Prompt 8** — (publicatie)
 > ok publiceer de website nu via github
 → Via Claude in Chrome: publieke repository aangemaakt, alle bestanden geüpload en GitHub Pages aangezet (branch `main`, map `/`).
+
+**Prompt 9** — (publicatie)
+> open de website
+
+**Prompt 10** — (publicatie)
+> kan mijn naam aanpassen
+> mijn username
+> ok mijn naam is aa gepast
+→ GitHub-gebruikersnaam zelf aangepast naar `josefienbohy`; links in het logboek bijgewerkt.
 
 Prompt 1 bevatte de volledige opdracht. Claude Code voerde op basis daarvan alle stappen uit; hieronder staat wat er per stap gebeurde.
 
