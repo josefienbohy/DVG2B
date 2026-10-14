@@ -1,8 +1,8 @@
 # Logboek — Creative Automation onepager
 
-**Live site:** https://josefienbohy.github.io/klas_naam_creaut-onepager/  
-**Versie 1:** https://josefienbohy.github.io/klas_naam_creaut-onepager/v1/  
-**Repository:** https://github.com/josefienbohy/klas_naam_creaut-onepager
+**Live site:** https://josefienbohy.github.io/DVG2B/  
+**Versie 1:** https://josefienbohy.github.io/DVG2B/v1/  
+**Repository:** https://github.com/josefienbohy/DVG2B
 
 ## Sessie 1 — 14 oktober 2026
 
@@ -47,6 +47,11 @@
 > mijn username
 > ok mijn naam is aa gepast
 → GitHub-gebruikersnaam zelf aangepast naar `josefienbohy`; links in het logboek bijgewerkt.
+
+**Prompt 11** — (publicatie)
+> open de website opniwue
+> ik heb de naam aangpast
+→ Repository zelf hernoemd naar `DVG2B`; links in het logboek bijgewerkt.
 
 Prompt 1 bevatte de volledige opdracht. Claude Code voerde op basis daarvan alle stappen uit; hieronder staat wat er per stap gebeurde.
 
