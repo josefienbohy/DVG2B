@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Automation</title>
+  <meta name="description" content="Wat leer je in Creative Automation? Een interactief overzicht voor nieuwe studenten digitale vormgeving.">
+  <meta name="theme-color" content="#100C2A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=DM+Sans:opsz,wght@9..40,400;9..40,600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ga naar de inhoud</a>
+
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Hoofdnavigatie">
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span>CreAut</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#beeldbewerking">Beeld</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#content">Content</a></li>
+        <li><a href="#web">Web</a></li>
+        <li><a href="#email">E-mail</a></li>
+        <li class="nav-pill" aria-hidden="true"></li>
+      </ul>
+    </nav>
+    <div class="progress" aria-hidden="true"><span class="progress-bar"></span></div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="hero-kicker">Digitale vormgeving · nieuw vak</p>
+        <h1 id="hero-title" class="scramble" data-text="Creative Automation">Creative Automation</h1>
+        <p class="hero-lead">Automatiseer het repetitieve werk, zet AI in als creatieve assistent en hou zelf de controle over het design.</p>
+        <div class="hero-actions">
+          <a class="button magnetic" href="#intro"><span>Start de rondleiding</span></a>
+          <p class="hint">Elk onderdeel hieronder kun je zelf uitproberen.</p>
+        </div>
+      </div>
+
+      <div class="hero-stack" aria-hidden="true">
+        <img class="card c1" src="images/beeldbewerking.jpg" width="1200" height="900" alt="">
+        <img class="card c2" src="images/social.jpg" width="1200" height="900" alt="">
+        <img class="card c3" src="images/web.jpg" width="1200" height="900" alt="">
+        <span class="chip chip-a">batch ×48</span>
+        <span class="chip chip-b">bulk create</span>
+        <span class="chip chip-c">prompt → beeld</span>
+      </div>
+    </section>
+
+    <!-- ================= INTRO ================= -->
+    <section id="intro" class="chapter" aria-labelledby="intro-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">Intro</p>
+        <h2 id="intro-title">Minder handwerk, meer varianten</h2>
+        <p>Creative Automation leert je hoe je als digitale vormgever repetitief werk automatiseert en AI inzet als creatieve assistent. Je werkt minder met de hand, produceert meer varianten en houdt toch de controle over het design. Doorheen het semester werk je aan een periodeopdracht: een volledige marketingcampagne voor een product, van briefing tot afgewerkte content.</p>
+      </div>
+      <div class="demo">
+        <p class="demo-label">Jouw periodeopdracht, stap voor stap</p>
+        <ol class="route">
+          <li><a href="#intro"><span class="dot"></span>Briefing</a></li>
+          <li><a href="#beeldbewerking"><span class="dot"></span>Productbeelden</a></li>
+          <li><a href="#social"><span class="dot"></span>Social media</a></li>
+          <li><a href="#content"><span class="dot"></span>AI-content</a></li>
+          <li><a href="#web"><span class="dot"></span>Website</a></li>
+          <li><a href="#email"><span class="dot"></span>Newsletter</a></li>
+        </ol>
+        <img class="demo-photo" src="images/intro.jpg" width="1200" height="900" loading="lazy" alt="Foto: een bureau met toetsenbord, potloden en kleurstalen van een vormgever.">
+      </div>
+    </section>
+
+    <!-- ================= BEELDBEWERKING ================= -->
+    <section id="beeldbewerking" class="chapter" aria-labelledby="beeld-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">Beeldbewerking</p>
+        <h2 id="beeld-title">Acties &amp; batch</h2>
+        <p>Je neemt Photoshop-acties op die een reeks bewerkingen onthouden: resizen, achtergronden uitbreiden met generative fill, een logo plaatsen en exporteren. Met batch-verwerking pas je die actie in één keer toe op een volledige map productfoto's. Zo verwerk je tientallen beelden consistent, zonder ze één voor één te openen.</p>
+        <ul class="tools" aria-label="Tools"><li>Photoshop</li><li>Acties</li><li>Batch</li><li>Generative fill</li></ul>
+      </div>
+      <div class="demo" id="batch-demo">
+        <div class="demo-head">
+          <p class="demo-label">Probeer het: batch-verwerking</p>
+          <ol class="action-steps" aria-label="Opgenomen actie">
+            <li>Resize</li><li>Generative fill</li><li>Logo</li><li>Export</li>
+          </ol>
+        </div>
+        <div class="batch-grid" aria-hidden="true"></div>
+        <div class="demo-controls">
+          <button class="btn" type="button" data-batch="run">▶ Start batch</button>
+          <button class="btn ghost" type="button" data-batch="reset">Opnieuw</button>
+          <p class="counter" aria-live="polite"><span data-batch="count">0</span>/12 verwerkt</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOCIAL ================= -->
+    <section id="social" class="chapter" aria-labelledby="social-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">Social media</p>
+        <h2 id="social-title">Figma automation</h2>
+        <p>In Figma Buzz bouw je templates voor verschillende formaten, zoals Instagram-posts, stories en display-banners. Via bulk create vul je die templates automatisch met data uit een CSV- of XLSX-bestand: titels, taglines, call-to-actions en afbeeldingen. Eén spreadsheet levert zo een volledige campagne op in alle formaten, met een consistent design.</p>
+        <ul class="tools" aria-label="Tools"><li>Figma Buzz</li><li>Bulk create</li><li>CSV / XLSX</li></ul>
+      </div>
+      <div class="demo" id="bulk-demo">
+        <p class="demo-label">Probeer het: pas de spreadsheet aan</p>
+        <div class="sheet" role="group" aria-label="Spreadsheet met campagnedata">
+          <div class="sheet-row sheet-head" aria-hidden="true"><span>titel</span><span>tagline</span><span>cta</span></div>
+          <div class="sheet-row">
+            <label class="sr-only" for="f-title">Titel</label>
+            <input id="f-title" value="Nova" maxlength="16" autocomplete="off" spellcheck="false">
+            <label class="sr-only" for="f-tag">Tagline</label>
+            <input id="f-tag" value="Zie de zomer scherper" maxlength="32" autocomplete="off">
+            <label class="sr-only" for="f-cta">Call-to-action</label>
+            <input id="f-cta" value="Shop nu" maxlength="14" autocomplete="off">
+          </div>
+        </div>
+        <div class="themes" role="radiogroup" aria-label="Kleurthema van de templates">
+          <button type="button" role="radio" aria-checked="true" data-theme="violet" style="--sw:#7C5CFF" aria-label="Violet"></button>
+          <button type="button" role="radio" aria-checked="false" data-theme="peach" style="--sw:#FF9F80" aria-label="Perzik"></button>
+          <button type="button" role="radio" aria-checked="false" data-theme="aqua" style="--sw:#4FE3E0" aria-label="Aqua"></button>
+          <button type="button" role="radio" aria-checked="false" data-theme="butter" style="--sw:#FFE27A" aria-label="Boter"></button>
+        </div>
+        <div class="formats" data-theme="violet" aria-live="polite">
+          <figure class="fmt post"><div class="fmt-inner"><b data-bind="title"></b><span data-bind="tag"></span><i data-bind="cta"></i></div><figcaption>Post 1:1</figcaption></figure>
+          <figure class="fmt story"><div class="fmt-inner"><b data-bind="title"></b><span data-bind="tag"></span><i data-bind="cta"></i></div><figcaption>Story 9:16</figcaption></figure>
+          <figure class="fmt banner"><div class="fmt-inner"><b data-bind="title"></b><span data-bind="tag"></span><i data-bind="cta"></i></div><figcaption>Banner</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTENT ================= -->
+    <section id="content" class="chapter" aria-labelledby="content-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">Content generatie</p>
+        <h2 id="content-title">Weave &amp; Claude Cowork</h2>
+        <p>Je genereert beelden en video met AI-tools zoals Weave, en leert hoe je met goede prompts een consistente stijl bewaakt. Met Claude Cowork laat je AI zelfstandig taken uitvoeren op je eigen bestanden: teksten schrijven, documenten opmaken en content plannen. Je ontdekt waar AI je werk versnelt en waar je zelf moet bijsturen.</p>
+        <ul class="tools" aria-label="Tools"><li>Weave</li><li>Claude Cowork</li><li>Prompting</li></ul>
+      </div>
+      <div class="demo" id="prompt-demo">
+        <p class="demo-label">Probeer het: bouw een prompt</p>
+        <p class="prompt-line"><span class="prompt-caret" aria-hidden="true">›</span> <span data-prompt="text">een bloem tussen zwevende bellen</span></p>
+        <div class="style-chips" role="group" aria-label="Stijlen">
+          <button type="button" aria-pressed="false" data-style="neon">neon</button>
+          <button type="button" aria-pressed="false" data-style="pastel">pastel</button>
+          <button type="button" aria-pressed="false" data-style="zwart-wit">zwart-wit</button>
+          <button type="button" aria-pressed="false" data-style="warm">warm licht</button>
+          <button type="button" aria-pressed="false" data-style="contrast">hoog contrast</button>
+        </div>
+        <div class="gen-frame">
+          <img data-prompt="img" src="images/content-generatie.jpg" width="1200" height="900" loading="lazy" alt="Foto: een digitale schildering van een bloem tussen zwevende bellen. Het beeld verandert van stijl met de gekozen prompt.">
+          <div class="gen-shimmer" aria-hidden="true"></div>
+        </div>
+        <div class="demo-controls">
+          <button class="btn" type="button" data-prompt="go">✦ Genereer</button>
+          <p class="counter" aria-live="polite" data-prompt="status">Kies één of meer stijlen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WEB ================= -->
+    <section id="web" class="chapter" aria-labelledby="web-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">Vibe coding &amp; web</p>
+        <h2 id="web-title">Bouwen in gewone taal</h2>
+        <p>Met Claude Code bouw je websites en tools door in gewone taal te beschrijven wat je wil. Je breidt Claude uit met skills, en via de Figma MCP-koppeling laat je Claude ontwerpen genereren in Figma en designs omzetten naar HTML en CSS. Je bouwt zelfs je eigen Figma-plugin. Je websites zet je online met GitHub Pages.</p>
+        <ul class="tools" aria-label="Tools"><li>Claude Code</li><li>Skills</li><li>Figma MCP</li><li>GitHub Pages</li></ul>
+      </div>
+      <div class="demo" id="code-demo">
+        <p class="demo-label">Probeer het: vraag een website</p>
+        <div class="code-split">
+          <div class="terminal">
+            <p class="term-prompt"><span>&gt;</span> maak een landingspagina voor zonnebril Nova</p>
+            <pre class="term-code" aria-hidden="true"><code data-code="out"></code></pre>
+          </div>
+          <div class="mini-site" aria-hidden="true">
+            <div class="ms-nav" data-step="1"><span></span><span></span><span></span></div>
+            <div class="ms-hero" data-step="2"><b>Nova</b><span>Zie de zomer scherper</span></div>
+            <div class="ms-grid" data-step="3"><span></span><span></span><span></span></div>
+            <div class="ms-btn" data-step="4">Shop nu</div>
+          </div>
+        </div>
+        <div class="demo-controls">
+          <button class="btn" type="button" data-code="go">↵ Verstuur prompt</button>
+          <p class="counter" aria-live="polite" data-code="status">Klaar om te bouwen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EMAIL ================= -->
+    <section id="email" class="chapter" aria-labelledby="email-title">
+      <div class="chapter-body">
+        <p class="chapter-tag">E-mailmarketing</p>
+        <h2 id="email-title">Newsletters &amp; flows</h2>
+        <p>In MailerLite bouw je inschrijvingsformulieren die je op een website plaatst, ontwerp je e-mailcampagnes en zet je automatisatieflows op: een nieuwe inschrijver krijgt bijvoorbeeld automatisch een reeks welkomstmails. Zo leer je hoe merken hun publiek opbouwen en blijven bereiken.</p>
+        <ul class="tools" aria-label="Tools"><li>MailerLite</li><li>Formulieren</li><li>Automatisatieflows</li></ul>
+      </div>
+      <div class="demo" id="flow-demo">
+        <p class="demo-label">Probeer het: start de welkomstflow</p>
+        <p class="demo-note">Dit is een demo: er wordt niets verstuurd of bewaard.</p>
+        <div class="flow">
+          <button class="flow-trigger btn" type="button" data-flow="go">+ Nieuwe inschrijver</button>
+          <ol class="flow-steps">
+            <li><span class="flow-day">Dag 0</span><span class="flow-mail">Welkom bij Nova</span></li>
+            <li><span class="flow-day">Dag 2</span><span class="flow-mail">3 stijltips voor de zomer</span></li>
+            <li><span class="flow-day">Dag 5</span><span class="flow-mail">−15% op je eerste bril</span></li>
+          </ol>
+        </div>
+        <div class="demo-controls">
+          <p class="counter" aria-live="polite">Inschrijvers: <span data-flow="count">0</span> · Mails verstuurd: <span data-flow="mails">0</span></p>
+        </div>
+        <img class="demo-photo" src="images/email.jpg" width="1200" height="900" loading="lazy" alt="Foto: close-up van het mail-icoon op het scherm van een smartphone.">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-big">Klaar om te automatiseren?</p>
+    <p class="credits">Foto's via <a href="https://unsplash.com">Unsplash</a>: Andy Brown, Onur Binay, Berke Citak, Julien Tromeur, Mohammad Rahmani en Brett Jordan.</p>
+    <a class="button magnetic" href="#top"><span>Terug naar boven ↑</span></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
