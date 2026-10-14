@@ -1,5 +1,9 @@
 # Logboek — Creative Automation onepager
 
+**Live site:** https://gooningismypassion.github.io/klas_naam_creaut-onepager/  
+**Versie 1:** https://gooningismypassion.github.io/klas_naam_creaut-onepager/v1/  
+**Repository:** https://github.com/gooningismypassion/klas_naam_creaut-onepager
+
 ## Sessie 1 — 14 oktober 2026
 
 ### Prompts (letterlijk en in volgorde)
@@ -30,6 +34,10 @@
 **Prompt 7** — (v2)
 > ok maak de website nu veel cooler en interactiever. gebruik ook andere kleuren
 → Vorige v2 bewaard in `archief/v2-eerste-versie/`. Nieuwe v2 "nachtstudio": donker ultraviolet palet `#100C2A` `#1A1540` `#7C5CFF` `#FF9F80` `#4FE3E0` `#FFE27A`, lettertypes Unbounded + DM Sans + JetBrains Mono. Interactief: scramble-titel, gloed en zwevende fotokaarten die de muis volgen, magnetische knoppen, glijdende navigatie-pill, en per onderdeel een speelbare demo (batch-verwerking, bulk create met live spreadsheet, prompt-bouwer met stijlen, website bouwen met een prompt, welkomstflow). Opnieuw volgens de frontend-design- en web-design-guidelines-skills (reduced motion, toetsenbord, labels, aria-live).
+
+**Prompt 8** — (publicatie)
+> ok publiceer de website nu via github
+→ Via Claude in Chrome: publieke repository aangemaakt, alle bestanden geüpload en GitHub Pages aangezet (branch `main`, map `/`).
 
 Prompt 1 bevatte de volledige opdracht. Claude Code voerde op basis daarvan alle stappen uit; hieronder staat wat er per stap gebeurde.
 
