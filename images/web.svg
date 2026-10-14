@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Een codevenster en een browservenster met een website">
+<rect width="400" height="320" rx="24" fill="#E3E6F3"/>
+<g stroke="#14152B" stroke-width="3" stroke-linejoin="round">
+<rect x="30" y="50" width="170" height="150" rx="10" fill="#14152B"/>
+<rect x="160" y="110" width="210" height="170" rx="10" fill="#F1F2F6"/>
+<path d="M160 140 H370" fill="none"/>
+<rect x="180" y="158" width="170" height="56" rx="8" fill="#3046F0"/>
+<rect x="180" y="226" width="80" height="38" rx="8" fill="#FFC43D"/>
+<rect x="270" y="226" width="80" height="38" rx="8" fill="#3CCB9A"/>
+</g>
+<g fill="#FF4F7B"><circle cx="176" cy="125" r="5"/></g><circle cx="192" cy="125" r="5" fill="#FFC43D"/><circle cx="208" cy="125" r="5" fill="#3CCB9A"/>
+<g stroke-width="6" stroke-linecap="round" fill="none"><path d="M50 78 H90" stroke="#FF4F7B"/><path d="M62 98 H130" stroke="#3CCB9A"/><path d="M62 118 H110" stroke="#FFC43D"/><path d="M50 138 H80" stroke="#FF4F7B"/></g>
+<rect x="196" y="176" width="90" height="10" rx="5" fill="#F1F2F6"/>
+</svg>

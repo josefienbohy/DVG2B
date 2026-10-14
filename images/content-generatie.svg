@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Een prompt die beelden en documenten genereert">
+<rect width="400" height="320" rx="24" fill="#E3E6F3"/>
+<g stroke="#14152B" stroke-width="3" stroke-linejoin="round">
+<rect x="34" y="200" width="200" height="56" rx="28" fill="#F1F2F6"/>
+<circle cx="206" cy="228" r="16" fill="#3046F0"/>
+<rect x="60" y="50" width="120" height="120" rx="12" fill="#FFC43D"/>
+<path d="M60 140 L100 100 L130 130 L150 112 L180 142 V158 a12 12 0 0 1 -12 12 H72 a12 12 0 0 1 -12 -12 Z" fill="#3CCB9A"/>
+<circle cx="146" cy="82" r="14" fill="#FF4F7B"/>
+<rect x="250" y="70" width="110" height="140" rx="10" fill="#F1F2F6"/>
+<rect x="266" y="90" width="60" height="10" rx="5" fill="#3046F0" stroke-width="2"/>
+</g>
+<g fill="#14152B"><rect x="266" y="116" width="78" height="6" rx="3"/><rect x="266" y="132" width="70" height="6" rx="3"/><rect x="266" y="148" width="78" height="6" rx="3"/><rect x="266" y="164" width="50" height="6" rx="3"/>
+<rect x="56" y="224" width="110" height="8" rx="4"/></g>
+<path d="M300 236 l6 -14 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 Z" fill="#FF4F7B" stroke="#14152B" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M340 30 l4 -10 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 Z" fill="#FFC43D" stroke="#14152B" stroke-width="2" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Een inschrijving die automatisch een reeks welkomstmails start">
+<rect width="400" height="320" rx="24" fill="#E3E6F3"/>
+<g stroke="#14152B" stroke-width="3" stroke-linejoin="round">
+<rect x="30" y="110" width="110" height="100" rx="10" fill="#F1F2F6"/>
+<rect x="44" y="134" width="82" height="20" rx="6" fill="#fff" stroke-width="2"/>
+<rect x="44" y="166" width="82" height="24" rx="12" fill="#FF4F7B" stroke-width="2"/>
+<path d="M140 160 H180 M180 70 V250 M180 70 H210 M180 160 H210 M180 250 H210" fill="none"/>
+<rect x="210" y="40" width="130" height="60" rx="8" fill="#3046F0"/>
+<path d="M210 40 l65 34 l65 -34" fill="none" stroke="#F1F2F6"/>
+<rect x="210" y="130" width="130" height="60" rx="8" fill="#3CCB9A"/>
+<path d="M210 130 l65 34 l65 -34" fill="none" stroke="#14152B"/>
+<rect x="210" y="220" width="130" height="60" rx="8" fill="#FFC43D"/>
+<path d="M210 220 l65 34 l65 -34" fill="none" stroke="#14152B"/>
+</g>
+<g fill="#14152B" font-family="Arial, sans-serif" font-weight="700" font-size="16"><circle cx="356" cy="70" r="14" fill="#FF4F7B" stroke="#14152B" stroke-width="2.5"/><circle cx="356" cy="160" r="14" fill="#FF4F7B" stroke="#14152B" stroke-width="2.5"/><circle cx="356" cy="250" r="14" fill="#FF4F7B" stroke="#14152B" stroke-width="2.5"/>
+<text x="351" y="76">1</text><text x="351" y="166">2</text><text x="351" y="256">3</text></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Een spreadsheet die templates voor post, story en banner automatisch invult">
+<rect width="400" height="320" rx="24" fill="#E3E6F3"/>
+<g stroke="#14152B" stroke-width="3" stroke-linejoin="round">
+<rect x="30" y="70" width="120" height="180" rx="10" fill="#F1F2F6"/>
+<path d="M30 110 H150 M30 145 H150 M30 180 H150 M30 215 H150 M75 70 V250" fill="none" stroke-width="2"/>
+<rect x="30" y="70" width="120" height="40" rx="10" fill="#3CCB9A"/>
+<path d="M160 160 H200" fill="none"/><path d="M192 150 L204 160 L192 170" fill="none"/>
+<rect x="214" y="40" width="92" height="92" rx="10" fill="#3046F0"/>
+<rect x="318" y="40" width="54" height="96" rx="10" fill="#FF4F7B"/>
+<rect x="214" y="170" width="158" height="70" rx="10" fill="#FFC43D"/>
+</g>
+<rect x="228" y="56" width="52" height="10" rx="5" fill="#F1F2F6"/><rect x="228" y="108" width="34" height="12" rx="6" fill="#FFC43D"/>
+<rect x="328" y="56" width="34" height="8" rx="4" fill="#F1F2F6"/><rect x="328" y="114" width="26" height="10" rx="5" fill="#14152B"/>
+<rect x="230" y="190" width="80" height="10" rx="5" fill="#14152B"/><rect x="230" y="210" width="40" height="12" rx="6" fill="#FF4F7B"/>
+<g fill="#14152B"><circle cx="52" cy="128" r="5"/><circle cx="52" cy="163" r="5"/><circle cx="52" cy="198" r="5"/><circle cx="52" cy="232" r="5"/></g>
+</svg>
